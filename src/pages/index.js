@@ -6,7 +6,7 @@ import Image from "../components/image"
 import SEO from "../components/seo"
 
 const IndexPage = () => (
-  <Layout>
+  <div>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
 
     <h1>Hello folks</h1>
@@ -16,7 +16,7 @@ const IndexPage = () => (
       <Image />
     </div>
     <Link to="/page-2/">Go to page 2</Link>
-  </Layout>
+  </div>
 )
 
 export default IndexPage
